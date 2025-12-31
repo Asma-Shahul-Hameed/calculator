@@ -1,0 +1,30 @@
+/* Main calculator container */
+#calculator {
+  max-width: 420px;
+  min-height: 60vh;
+  padding: 1rem;
+  background-color: rgb(7, 7, 7);
+}
+
+/* Larger screens (desktop and above) */
+@media (min-width: 992px) {
+  #calculator {
+    min-height: 70vh;
+  }
+}
+
+/* Calculator display input field */
+#display{
+    background-color: darkgray;
+}
+
+/* Primary action buttons (AC, =) */
+.calc-btn1{
+    background-color: rgb(28, 39, 87) !important;
+}
+
+/* Operator buttons (+, -, *, /, %, X²) */
+.calc-btn2{
+  background-color: teal !important;
+}
+
